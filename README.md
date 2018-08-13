@@ -1,6 +1,4 @@
-# ASP.NET Core 2.1 & Angular 6(+) Advanced Starter - PWA & Server-side prerendering (for Angular SEO)! 
-
-## By [DevHelp.Online](http://www.DevHelp.Online)
+# This is a clone of the original work at https://github.com/MarkPieszak/aspnetcore-angular2-universal to focus more on a reusable boilerplate. 
 
 > Updated to the latest Angular 6.x
 
