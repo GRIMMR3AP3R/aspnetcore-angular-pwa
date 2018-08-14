@@ -70,7 +70,7 @@ namespace AspnetcoreAngularPwa {
                 app.UseDeveloperExceptionPage ();
                 app.UseWebpackDevMiddleware (new WebpackDevMiddlewareOptions {
                     HotModuleReplacement = true,
-                        HotModuleReplacementEndpoint = "/dist/"
+                        HotModuleReplacementEndpoint = "wwwroot/dist/"
                 });
                 app.UseSwagger ();
                 app.UseSwaggerUI (c => {

@@ -105,7 +105,7 @@
         "ASPNETCORE_ENVIRONMENT": "Production"
       },
       "sourceFileMap": {
-        "/Views": "${workspaceRoot}/src/AspCoreServer/Views"
+        "/Views": "${workspaceRoot}/src/AspnetcoreAngularPwa/Views"
       }
     },
     {

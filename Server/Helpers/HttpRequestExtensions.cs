@@ -25,7 +25,7 @@ namespace AspnetcoreAngularPwa.Server.Helpers {
                 "/",
                 request.HttpContext.RequestServices.GetRequiredService<INodeServices>(),
                 new System.Threading.CancellationTokenSource().Token,
-                new JavaScriptModuleExport(request.HttpContext.RequestServices.GetRequiredService<IHostingEnvironment>().ContentRootPath + "/ClientApp/dist/main-server"),
+                new JavaScriptModuleExport(request.HttpContext.RequestServices.GetRequiredService<IHostingEnvironment>().ContentRootPath + "/wwwroot/dist/main"),
                 $"{request.Scheme}://{request.Host}{request.HttpContext.Features.Get<IHttpRequestFeature>().RawTarget}",
                 request.HttpContext.Features.Get<IHttpRequestFeature>().RawTarget,
                 // ** TransferData concept **
